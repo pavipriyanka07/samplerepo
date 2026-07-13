@@ -1,3 +1,7 @@
 a = "pavi"
 b = "priyank"
-print(a+b)
+def fun(a, b):
+    return a + " " + b
+
+print(fun(a, b))
+print("-----")
